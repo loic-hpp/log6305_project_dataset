@@ -1,0 +1,22 @@
+# Core data
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+tqdm>=4.66
+requests>=2.31
+
+# ML — traditional
+scikit-learn>=1.4
+xgboost>=2.0
+imbalanced-learn>=0.12   # SMOTE
+
+# Explainability
+shap>=0.45
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+
+# Deep learning (optional — needed for BiLSTM and CodeBERT)
+torch>=2.1
+transformers>=4.40
