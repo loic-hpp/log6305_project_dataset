@@ -1,7 +1,7 @@
 feature,mean_abs_shap
-hist_fail_rate_mean,0.2908323919991316
-duration,0.15147780111130366
-gh_is_pr,0.04866564062076705
+hist_fail_rate_mean,0.3011312561836411
+duration,0.10359185031898506
+gh_is_pr,0.039701997888248394
 tfidf_travis,0.0
 tfidf_try,0.0
 tfidf_restarting,0.0

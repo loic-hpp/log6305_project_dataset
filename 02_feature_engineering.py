@@ -107,8 +107,8 @@ def main() -> None:
     )
 
     # ── 3. historical instability ────────────────────────────────────────────
-    log.info("Computing historical instability (k=10) …")
-    hist_df = compute_historical_instability(df, k=10)
+    log.info("Computing historical instability (k=5) …")
+    hist_df = compute_historical_instability(df, k=5)
     df = df.merge(hist_df, on="build_id", how="left")
     df["hist_fail_rate_mean"] = df["hist_fail_rate_mean"].fillna(0.5)
 
